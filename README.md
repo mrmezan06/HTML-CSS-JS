@@ -4,5 +4,5 @@
 
 ### List of Projects --
 
-* Day 1 - [Expanding Cards](\Expanding Card\index.html)
-* Day 2 - [Progress Steps](\Progress Steps\index.html)
+* Day 1 - Expanding Cards
+* Day 2 - Progress Steps
