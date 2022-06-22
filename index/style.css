@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    height: 100vh;
+    overflow-x: visible;
+    margin-top: 20px;
+    margin: 20px;
+    background-color: #057f26;
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    background-color: blueviolet;
+    color: white;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.bg-success {
+    border-radius: 20px;
+}
+
