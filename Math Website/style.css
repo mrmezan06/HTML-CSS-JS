@@ -1,3 +1,7 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+
 #container {
     width: 80%;
     /* border: 1px solid grey; */
@@ -37,7 +41,7 @@ h1 a {
     font-size: 15px;
     color: #E36A0C;
     background: white url('search.png') no-repeat right center;
-    border-style: none;
+    border: 1px solid #c8d03e;
 }
 
 .submit {
@@ -111,4 +115,67 @@ ul {
     font-size: 25px;
     color: #628F19;
     text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 43%;
+    border: 1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #B314DB;
+    font-size: 30px;
+}
+.sidebar ul {
+    padding-top: 8px;
+}
+
+#leftsidebar ul li {
+    list-style-image: url('arrow.png');
+    padding: 4px 0px 4px 10px;
+}
+
+#rightsidebar ul li {
+    /* left right top bottom */
+    /* left-right top-bottom */
+    padding: 20px 0px 20px 70px;
+    background: url('tick.png') no-repeat left center;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    -webkit-transition: font-size .3s ease;
+    -moz-transition: font-size .3s ease;
+    -o-transition: font-size .3s ease;
+    -ms-transition: font-size .3s ease;
+    transition: font-size .3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+#leftsidebar {
+    float: left;
+    
+}
+
+#rightsidebar {
+    float: right;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(#f6f390, #d5d533);
+    padding: 10px 30px;
+    margin-top: 15px;
 }
