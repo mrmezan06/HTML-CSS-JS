@@ -1,4 +1,4 @@
-# Project Name
+# Form Wave Animation
 
 
 * Demo 1
@@ -6,6 +6,3 @@
 
 * Demo 2
     -  <img src="2.png">
-
-* Demo 3
-    -  <img src="3.png">
