@@ -11,4 +11,8 @@
 * Day 5 - Blurry Loading
 * Day 6 - Scroll Animation
 * Day 7 - Split Landing Page
-* Day 8 - Battery Animation
+* Day 8 - Math is Fun
+* Day 9 - Battery Animation
+* Day 10 - Form Wave Animation
+* Day 11 - Sound Board
+* Day 12 - Dad Joke - Fetch From API
