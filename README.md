@@ -18,3 +18,4 @@
 * Day 12 - Dad Joke - Fetch From API
 * Day 13 - Event Key Code
 * Day 14 - FAQ Box
+* Day 15 - Random Choice Picker
