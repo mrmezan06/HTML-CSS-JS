@@ -4,18 +4,18 @@
 
 ### List of Projects --
 
-* Day 1 - Expanding Cards
-* Day 2 - Progress Steps
-* Day 3 - Rotating Navbar
-* Day 4 - Hidden Search Widget
-* Day 5 - Blurry Loading
-* Day 6 - Scroll Animation
-* Day 7 - Split Landing Page
-* Day 8 - Math is Fun
-* Day 9 - Battery Animation
-* Day 10 - Form Wave Animation
-* Day 11 - Sound Board
-* Day 12 - Dad Joke - Fetch From API
-* Day 13 - Event Key Code
-* Day 14 - FAQ Box
-* Day 15 - Random Choice Picker
+* Project 1 - Expanding Cards
+* Project 2 - Progress Steps
+* Project 3 - Rotating Navbar
+* Project 4 - Hidden Search Widget
+* Project 5 - Blurry Loading
+* Project 6 - Scroll Animation
+* Project 7 - Split Landing Page
+* Project 8 - Math is Fun
+* Project 9 - Battery Animation
+* Project 10 - Form Wave Animation
+* Project 11 - Sound Board
+* Project 12 - Dad Joke - Fetch From API
+* Project 13 - Event Key Code
+* Project 14 - FAQ Box
+* Project 15 - Random Choice Picker
