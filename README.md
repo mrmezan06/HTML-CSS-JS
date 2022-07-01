@@ -20,4 +20,3 @@
 * Project 14 - FAQ Box
 * Project 15 - Random Choice Picker
 * Project 16 - Nav Animation
-* Project 17 - Quote Generator
