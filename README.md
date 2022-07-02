@@ -21,3 +21,4 @@
 * Project 15 - Random Choice Picker
 * Project 16 - Nav Animation
 * Project 17 - Quote Generator
+* Project 18 - Apple eCommerce
