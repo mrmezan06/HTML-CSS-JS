@@ -22,3 +22,4 @@
 * Project 16 - Nav Animation
 * Project 17 - Quote Generator
 * Project 18 - Apple eCommerce
+* Project 19 - Card UI Hover Effect
