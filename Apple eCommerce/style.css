@@ -322,4 +322,105 @@ html {
 /* End of Slideshow */
 /* End of Section 1 */
 
+/* Section 2 */
+.section-2 {
+    width: 100%;
+    height: 120vh;
+    padding: 10vh 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-2-heading {
+    font-size: 10rem;
+    font-weight: 200;
+    color: var(--black-color);
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.section-2-heading::before {
+    content: '';
+    width: 130%;
+    height: 30vw;
+    background-image: linear-gradient(var(--primary-color), var(--white-color));
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: skewX(-50deg);
+    transform-origin: left top;
+    z-index: -1;
+    border-radius: 1rem;
+}
+
+.iphones {
+    height: 60vh;
+    width: 50vw;
+    background-image: linear-gradient(var(--primary-color), var(--white-color));
+    border-radius: .5rem;
+    
+}
+
+.iphones img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    position: absolute;
+    transition: opacity 3s;
+}
+
+.iphone-img-2 {
+    opacity: 0;
+}
+
+.iphones:hover .iphone-img-1{
+    opacity: 0;
+}
+
+.iphones:hover .iphone-img-2{
+    opacity: 1;
+}
+
+.iphone-btns {
+    display: flex;
+}
+
+.iphone-btn {
+    width: 6rem;
+    height: 6rem;
+    background-image: linear-gradient(to right, rgb(51, 51, 51) 60%, rgb(82, 82, 82));
+    margin: 0 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+.iphone-btn::after {
+    content: '';
+    width: 50%;
+    height: 50%;
+    display: block;
+    border: 0.1rem solid #6edae6;
+    border-radius: 1rem; 
+}
+
+.iphone-btn span {
+    position: absolute;
+    top: -3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+    width: max-content;
+    transform: scale(0);
+    transition: transform .5s;
+}
+
+.iphone-btn:hover span {
+    transform: scale(1);
+}
+/* End of Section 2 */
+
+
 
