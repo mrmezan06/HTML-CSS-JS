@@ -23,3 +23,8 @@
 * Project 17 - Quote Generator
 * Project 18 - Apple eCommerce
 * Project 19 - Card UI Hover Effect
+
+
+## Important for Pull and Push
+* Fetching changes from github: `git fetch`
+* Merging changes from github: `git merge`
