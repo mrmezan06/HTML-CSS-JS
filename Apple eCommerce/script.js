@@ -1,3 +1,4 @@
+// Section 1
 // Cube
 let x = 0;
 let y = 20;
@@ -76,5 +77,15 @@ const slideshow = () => {
 }
 slideshow();
 // End of Slideshow
+// End of Section 1
+
+// Section 3
+const section3Content =  document.querySelector('.section-3-content');
+window.addEventListener('scroll', ()=> {
+    if(window.pageYOffset + window.innerHeight >= section3Content.offsetTop + section3Content.offsetHeight / 2) {
+        section3Content.classList.add('change')
+    }
+});
+// End of Section 3
 
 
