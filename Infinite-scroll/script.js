@@ -53,7 +53,7 @@ function displayPhotos() {
 
 // API call to get photos
 const count = 30;
-const apiKey = 'KiWpCq1s_mvvhCsDz_4IWxZ6goKvPpfIY6tEwLhb7i4';
+const apiKey = 'API KEY';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 
