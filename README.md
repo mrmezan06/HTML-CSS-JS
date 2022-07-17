@@ -25,6 +25,7 @@
 * Project 19 - Card UI Hover Effect
 * Project 20 - Infinite Scroll
 * Project 21 - Analog Digital Clock
+* Project 22 - Claymorphism List
 
 
 
