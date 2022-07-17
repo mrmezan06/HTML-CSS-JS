@@ -24,6 +24,7 @@
 * Project 18 - Apple eCommerce
 * Project 19 - Card UI Hover Effect
 * Project 20 - Infinite Scroll
+* Project 21 - Analog Digital Clock
 
 
 
