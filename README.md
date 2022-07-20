@@ -26,6 +26,7 @@
 * Project 20 - Infinite Scroll
 * Project 21 - Analog Digital Clock
 * Project 22 - Claymorphism List
+* Project 23 - Icon DropShadow
 
 
 
