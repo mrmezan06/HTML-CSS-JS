@@ -1,0 +1,90 @@
+.page_container{
+    width: 960px;
+    margin: 20px auto 0px auto;
+}
+.gallery_credit{
+    margin: 0px 0px 10px 15px;
+    float: left; width: 425px;
+}
+.gallery_type{
+    margin: 0px 0px 10px 0px; 
+    float: left; width: 500px; 
+    text-align: right; 
+    padding: 4px 0px 0px 0px;
+}
+.gallery_top{
+    margin: 0px;
+	padding: 0px;
+	height: 20px;
+	background: url(../images/templates/page_top.jpg) no-repeat 0px 0px;
+}
+.gallery_content{
+    margin: 0px;
+	padding: 15px 0px 1px 0px;
+	background: url(../images/templates/page_tile.jpg) repeat-y 0px 0px;
+}
+.gallery_thumbnails{
+    width: 500px; 
+    margin-left: 40px; 
+    float: left;
+}
+.gallery_preview{
+    width: 375px; 
+    height: 375px; 
+    float: left;
+}
+.gallery_contact{
+    width: 477px; 
+    height: 60px; 
+    margin-left: 40px; 
+    padding-right: 23px; 
+    float: left; 
+    text-align: right;
+}
+.gallery_caption{
+    width: 375px; 
+    float: left;
+}
+.gallery_bottom{
+    margin: 0px;
+	padding: 0px;
+	height: 20px;
+	background: url(../images/templates/page_bottom.jpg) no-repeat 0px 0px;
+}
+.clear_both{
+    line-height: 1px;
+    clear: both;
+}
+body { background-color: #000; font-family: Arial; color: #555; font-size: .75em; }
+
+/* Just copp paste css */
+h1 { margin: 0px; color: #fff; font-size: 1.75em; letter-spacing: 2px; font-weight: normal; }
+h2 { margin: 0px; color: #555; font-size: 1.25em; letter-spacing: 19px; font-weight: normal; text-transform: uppercase; }
+
+p { margin: 0px 0px 15px 0px;  }
+a img { border: none; }
+a { color: #fff; }
+a:hover { color: #bbb; }
+
+a.contactLink { font-size: .8em; background: url(../images/template/link_email.png) no-repeat 0px right; padding: 0px 30px 0px 0px; text-transform: uppercase; text-decoration: none }
+a.zoom { font-size: .8em; background: url(../images/template/link_zoom.png) no-repeat 0px 0px; padding: 0px 0px 5px 20px; text-transform: uppercase; text-decoration: none }
+.gallery_data { padding: 40px; display: none; }
+.gallery_preload_area { display: none; }
+.gallery_thumbnails a {
+	display: block;
+	height: 75px;
+	width: 75px;
+	float: left;
+	border: 1px solid #555;
+	margin: 0px 23px 23px 0px;
+}
+.gallery_thumbnails a:hover { border-color: #fff; }
+.gallery_thumbnails a.selected { border-color: #fff; }
+.gallery_preview a { display: block; width: 375px; height: 375px; border: 1px solid #555; }
+.gallery_preview a:hover { border-color: #fff; }
+/* Hide for browsers with no JavaScript support */
+
+/* .gallery_data { display: block }
+.gallery_thumbnails { width: auto; }
+.gallery_preview { display: none; }
+.gallery_caption { display: none; } */
