@@ -27,6 +27,7 @@
 * Project 21 - Analog Digital Clock
 * Project 22 - Claymorphism List
 * Project 23 - Icon DropShadow
+* Project 24 - Glass Morphism Landing Page
 
 
 
