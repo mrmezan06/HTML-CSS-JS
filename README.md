@@ -29,6 +29,7 @@
 * Project 23 - Icon DropShadow
 * Project 24 - Glass Morphism Landing Page
 * Project 25 - Movies Review
+* Project 26 - Social Media Hover Icon
 
 
 
