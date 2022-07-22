@@ -28,6 +28,7 @@
 * Project 22 - Claymorphism List
 * Project 23 - Icon DropShadow
 * Project 24 - Glass Morphism Landing Page
+* Project 25 - Movies Review
 
 
 
