@@ -32,7 +32,7 @@ form.addEventListener('submit', (e) => {
 function displayMovies(movies) {
     main.innerHTML = '';
     movies.forEach(movie => {
-         const { title, poster_path, vote_average, overview } = movie;
+         const { title, poster_path, vote_average, overview, release_date } = movie;
          const movie_div = document.createElement('div');
             movie_div.classList.add('movie');
             movie_div.innerHTML = `
@@ -45,6 +45,8 @@ function displayMovies(movies) {
             <div class="overview">
                 <h3>Overview</h3>
                 ${overview}
+                <h3>Release Date</h3>
+                <span>${release_date}</span>
             </div>
         
             `;
@@ -56,24 +58,13 @@ function getClassByRate(rate) {
     if(rate >= 7) {
         return 'green';
     }else if(rate >= 5 && rate < 7) {
-        return 'yellow';
+        return 'orange';
     }else {
         return 'red';
     }
 }
 
 getMovies(api_url);
-
-// UNLIMITED SCROLL
-
-// window.addEventListener('scroll', () => {
-//     if(window.innerHeight + window.scrollY >= document.body.offsetHeight){
-//         ++page;
-//         console.log(page);
-//         //getMoreMovies();
-        
-//     }
-// });
 
 const next = document.querySelector('.next');
 const prev = document.querySelector('.prev');
