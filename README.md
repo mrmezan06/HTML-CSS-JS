@@ -30,7 +30,7 @@
 * Project 24 - Glass Morphism Landing Page
 * Project 25 - Movies Review
 * Project 26 - Social Media Hover Icon
-* Project 27 - Product Preview
+* Project 27 - Product Design
 
 
 
