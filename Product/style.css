@@ -18,14 +18,13 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(30, 38%, 92%);
-    margin: 100px 20px;
     border-radius: 20px;
     
 }
 
 .cream {
     background-color: hsl(30, 38%, 92%);
-    margin: 10% 10%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +33,6 @@ body {
 .main {
     width: 600px;
     height: 350px;
-    border: 1px solid red;
     border-radius: 20px;
     display: flex;
     align-items: center;
