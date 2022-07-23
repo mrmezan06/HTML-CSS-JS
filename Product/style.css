@@ -18,13 +18,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(30, 38%, 92%);
-    margin: 100px 10px;
+    margin: 100px 20px;
+    border-radius: 20px;
     
 }
 
 .cream {
     background-color: hsl(30, 38%, 92%);
-    margin: 10% 5%;
+    margin: 10% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,8 @@ body {
 .main {
     width: 600px;
     height: 350px;
-    
+    border: 1px solid red;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +44,6 @@ body {
 .main .p1 {
     width: 50%;
     height: 100%;
-    
 }
 
 .main .p1 .img-container{
@@ -50,12 +51,15 @@ body {
     height: 100%;
     background: url(images/image-product-desktop.jpg) no-repeat;
     background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 .main .p2 {
     width: 50%;
     height: 100%;
     background-color: #fff;
-    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .main .p2 .content {
@@ -74,6 +78,8 @@ body {
     margin-top: 25px;
     font-size: 1rem;
     color: cadetblue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .main .p2 .content .title {
@@ -89,12 +95,13 @@ body {
     font-size: 1rem;
     color: cadetblue;
     margin-top: 10px;
+    line-height: 18px;
 }
 
 .main .p2 .content .price {
     margin-left: 20px;
     font-size: 1.5rem;
-    color: green;
+    color: hsl(158, 36%, 37%);
     font-weight: 700;
     margin-top: 10px;
 }
@@ -105,7 +112,7 @@ body {
 }
 
 .main .p2 .content .button {
-    background-color: green;
+    background-color: hsl(158, 36%, 37%);
     color: #fff;
     text-align: center;
     margin: 20px 20px 0 20px;
