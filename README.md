@@ -31,6 +31,7 @@
 * Project 25 - Movies Review
 * Project 26 - Social Media Hover Icon
 * Project 27 - Product Design
+* Project 28 - Our Team
 
 
 
