@@ -13,7 +13,20 @@ body {
     overflow-x: visible;
     margin-top: 20px;
     margin: 20px;
-    background-color: #057f26;
+    background: linear-gradient(to bottom, #ff359b, #fffd87, #00d2ff);
+}
+
+.container-fluid .bgh {
+    background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    border: 1px solid #ff9;
+    box-shadow: 0 10px 20px rgba(255, 53, 155, 0.50),
+    0 15px 25px rgba(255, 253, 135, .3),
+    0 15px 30px rgba(0, 10, 255, 0.3);
+    padding: 10px;
+    font-weight: 900;
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .row {
@@ -23,19 +36,39 @@ body {
     justify-content: center;
 }
 
+.row .card {
+    color: #fff;
+    background: linear-gradient(to bottom, #ff359b, #fffd87, #00d2ff);
+    border-radius: 20px;
+    margin: 20px;
+    border: 1px solid #ff9;
+    box-shadow: 0 10px 20px rgba(255, 53, 155, 0.50),
+    0 15px 25px rgba(255, 253, 135, .3),
+    0 15px 30px rgba(0, 10, 255, 0.3);
+}
+
 .h1 {
-    background-color: blueviolet;
     color: white;
 }
 
-.card {
-    border-radius: 20px;
-    margin: 20px;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bg-success {
-    border-radius: 20px;
+footer section a {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
+footer section a i {
+    color: #fff;
+}
+
+footer section a:hover i{
+    color: var(--clr);
+}
+
 
 @media(max-width: 420px) {
     body {
@@ -56,8 +89,12 @@ body {
     }
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+/* 
+
+#1877f2; Facebook
+#ff0000; Youtube
+#1da1f2; Twitter
+#c32aa3; Instagram
+#25d366; Whatsapp
+*/
