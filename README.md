@@ -35,6 +35,7 @@
 * Project 26 - Social Media Hover Icon
 * Project 27 - Product Design
 * Project 28 - Our Team
+* Project 29 - Z - Index Hover Effect
 
 
 
