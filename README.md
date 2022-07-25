@@ -2,6 +2,9 @@
  
 ###### Only HTML CSS & JavaScript
 
+## Live Preview
+[Netlify Live Server](https://akash07105.netlify.app)
+
 ### List of Projects --
 
 * Project 1 - Expanding Cards
@@ -38,3 +41,6 @@
 ## Important for Pull and Push
 * Fetching changes from github: `git fetch`
 * Merging changes from github: `git merge`
+
+
+## Preview
