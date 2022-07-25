@@ -14,6 +14,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: var(--bg);
+    overflow: hidden;
 }
 
 ul {
@@ -75,4 +76,11 @@ ul li:hover a {
     filter: drop-shadow(0 0 20px var(--clr))
     drop-shadow(0 0 40px var(--clr))
     drop-shadow(0 0 60px var(--clr));
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        gap: 15px;
+    }
+    
 }
