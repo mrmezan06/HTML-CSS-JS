@@ -13,15 +13,16 @@ body {
     overflow-x: visible;
     margin-top: 20px;
     margin: 20px;
-    background: linear-gradient(to bottom, #ff359b, #fffd87, #00d2ff);
+    background: #01031d;
 }
 
 .container-fluid .bgh {
-    background: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    background: linear-gradient(to right, #00d2ff, #e06666, #00d2ff);
     border: 1px solid #ff9;
-    box-shadow: 0 10px 20px rgba(255, 53, 155, 0.50),
-    0 15px 25px rgba(255, 253, 135, .3),
-    0 15px 30px rgba(0, 10, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 210, 255, .7),
+    0 15px 25px rgba(255, 53, 70, 0.7),
+    0 15px 30px rgba(0, 210, 255, 0.3);
     padding: 10px;
     font-weight: 900;
     font-size: 2em;
@@ -42,7 +43,7 @@ body {
     border-radius: 20px;
     margin: 20px;
     border: 1px solid #ff9;
-    box-shadow: 0 10px 20px rgba(255, 53, 155, 0.50),
+    box-shadow: 0 10px 20px rgba(0, 210, 255, 0.5),
     0 15px 25px rgba(255, 253, 135, .3),
     0 15px 30px rgba(0, 10, 255, 0.3);
 }
