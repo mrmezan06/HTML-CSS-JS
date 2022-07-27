@@ -81,18 +81,43 @@ footer section {
     0 10px 15px rgba(0, 210, 255,  0.2),
     0 105px 20px rgba(0, 210, 255, 0.1);
     margin-top: 40px;
+    height: 60px;
 }
 
+.copyright div a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.copyright div a:hover {
+    color: #f22;
+}
+
+.copyright div {
+    transition: 0.5s;
+}
+
+.copyright div:hover {
+    font-size: 1.2rem;
+}
+
+/* Social Media Section */
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 footer section a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-footer section a i {
-    color: #fff;
-}
-
-footer section a:hover i{
+footer section a:hover i, footer section a:hover ion-icon {
     color: var(--clr);
+}
+footer section a i, footer section a ion-icon {
+    color: var(--clr);
+    transition: 0.5s;
 }
 
 
