@@ -42,6 +42,11 @@
 * Project 33 - Social Counter
 
 
+## [GTMetrix Report](https://gtmetrix.com/)
+* GTMetrix Website Score   👉👇
+    *  <img src="Report.png">
+
+
 
 ## Important for Pull and Push
 * Fetching changes from github: `git fetch`
