@@ -178,4 +178,11 @@ ul {
     background: linear-gradient(#f6f390, #d5d533);
     padding: 10px 30px;
     margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div p {
+    color: #fff;
 }
