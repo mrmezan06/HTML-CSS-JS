@@ -74,3 +74,69 @@ position: relative;
 transform: translate(50%, 50%);
 ```
 
+- [x] Display : Block and Display : Flex
+    - [x] Parameter can be set as block, flex, inline-block, inline-flex.
+    - [x] Block is take full width of parent element.
+
+```css
+display: block;
+```
+
+- [x]  Animation timing function guidelines
+    - [x] Parameter can be set as linear, ease, ease-in, ease-out, ease-in-out, step-start, step-end.
+    - [x] [Timing Function Example](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
+
+- [x] Animation Example
+
+```css
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+```
+
+```css
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+```
+
+```css
+animation: moveInRight 1s ease-out;
+```
+"Or"
+```css
+animation-name: moveInLeft;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+```
+
+- [x] Fixing Animation Shaking Issue Simply Backface Visibility hidden But In 3D It should visible cause if backface visibility hidden in backface never saw and its not look like 3D
+    - [x] It should hide in parent element
+
+```css
+backface-visibility: hidden;
+```
+
+- [x] Single Word Selection With Multiple Cursor
+    - [x] First Select The Word
+    - [x] Then Pres `CTRL + D` Each Time It Will Select Next Or Previous A Word.
