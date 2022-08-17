@@ -130,6 +130,14 @@ animation-duration: 1s;
 animation-timing-function: ease-out;
 ```
 
+- [x] In Up Defined Animation Can Be Apply On Hover
+
+```css
+.logo:hover {
+    animation: moveInRight 1s ease-out;
+}
+```
+
 - [x] Fixing Animation Shaking Issue Simply Backface Visibility hidden But In 3D It should visible cause if backface visibility hidden in backface never saw and its not look like 3D
     - [x] It should hide in parent element
 
