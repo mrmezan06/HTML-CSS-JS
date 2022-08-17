@@ -49,3 +49,28 @@ background-size: cover;
 ```css
 clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 ```
+
+- [x] Position Relative to Parent
+    - [x] Parameter can be set as absolute, fixed, relative, sticky.
+    - [x] top, left, bottom and right position is reference to parent element.
+
+```css
+position: absolute;
+    top: 40%;
+    left: 50%;
+```
+
+- [x] Position Absolute must be parent of Position Relative
+
+```css
+position: relative;
+```
+
+- [x] Transform and translate
+    - [x] Parameter can be set as rotate, scale, skew, translate.
+    - [x] top, left, bottom and right position is reference to its own element.
+
+```css
+transform: translate(50%, 50%);
+```
+
