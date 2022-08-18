@@ -148,3 +148,14 @@ backface-visibility: hidden;
 - [x] Single Word Selection With Multiple Cursor
     - [x] First Select The Word
     - [x] Then Pres `CTRL + D` Each Time It Will Select Next Or Previous A Word.
+
+- [x] Animation Fill Mode
+    - [x] Parameter can be set as forwards, backwards, both, none.
+    - [x] forwards: animation will play from start to end.
+    - [x] backwards: animation will play from end to start.
+    - [x] both: animation will play from start to end and then from end to start.
+    - [x] none: animation will not play.
+
+```css
+ animation-fill-mode: backwards;
+ ```
