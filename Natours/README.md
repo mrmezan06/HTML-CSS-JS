@@ -154,8 +154,45 @@ backface-visibility: hidden;
     - [x] forwards: animation will play from start to end.
     - [x] backwards: animation will play from end to start.
     - [x] both: animation will play from start to end and then from end to start.
-    - [x] none: animation will not play.
+    - [x] none: animation will not play. eg. `animation-fill-mode: backwards;`
+
+
+- [x] BEM architecture
+    - [x] B: Block Name
+    - [x] E: Element (Class)
+    - [x] M: Modifier (Class)
+
+- [x] Modifier Example
 
 ```css
- animation-fill-mode: backwards;
- ```
+.btn:link, .btn:visited {
+    some-property: value;
+}
+```
+
+```css
+.btn--animated {
+    some-property: value;
+}
+```
+```css
+.heading-primary {
+    some-property: value;
+}
+
+.heading-primary--main {
+    some-property: value;
+}
+```
+
+- [x] Element
+
+```css
+.header {
+    some-property: value;
+}
+
+.header__logo-box {
+    some-property: value;
+}
+```
