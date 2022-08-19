@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+    // background-color: #eee;
     margin: 0 auto;
     &:not(:last-child) {
         // Every row except the last one should have a bottom margin of $gutter-vertical
@@ -12,7 +12,7 @@
     // attribute selector ^ -> start with * -> contains $ -> end with
 
     [class^="col-"] {
-        background-color: orangered;
+        // background-color: orangered;
         float: left;
         &:not(:last-child) {
             // Every column except the last one should have a right margin of $gutter-horizontal
