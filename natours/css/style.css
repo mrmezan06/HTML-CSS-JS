@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -18,21 +18,18 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-
-.header__logo-box {
-  position: absolute;
-  top: 40px;
-  left: 40px; }
-
-.header__logo {
-  height: 35px; }
-
-.header__text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
+  .header__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px; }
+  .header__logo {
+    height: 35px; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .heading-primary {
   color: #fff;
@@ -40,24 +37,22 @@ body {
   /* In animations sometimes it shaking to top to fix it to use backface-visibility */
   backface-visibility: hidden;
   margin-bottom: 60px; }
-
-.heading-primary--main {
-  display: block;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: 35px;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  /* animation-delay: 3s; */
-  /* animation-iteration-count: 3; */ }
-
-.heading-primary--sub {
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 17.4px;
-  animation: moveInRight 1s ease-out; }
+  .heading-primary--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    /* animation-delay: 3s; */
+    /* animation-iteration-count: 3; */ }
+  .heading-primary--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    animation: moveInRight 1s ease-out; }
 
 @keyframes moveInLeft {
   0% {
@@ -99,6 +94,9 @@ body {
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
 
 .btn:active {
   transform: translateY(-1px);
@@ -107,9 +105,11 @@ body {
 .btn--white {
   background-color: #fff;
   color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
 
 .btn::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -120,13 +120,6 @@ body {
   z-index: -1;
   transition: all 0.4s; }
 
-.btn--white::after {
-  background-color: #fff; }
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0; }
-
 .btn--animated {
-  animation: moveInBottom 0.5s ease-out .75s;
+  animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; }
