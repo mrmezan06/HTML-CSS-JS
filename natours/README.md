@@ -196,3 +196,10 @@ backface-visibility: hidden;
     some-property: value;
 }
 ```
+
+
+## Custom Scripts Instructions
+
+- [x] Watch The keep changing SCSS File to Compile CSS
+    - [x] Compile CSS with `npm run compile:sass`
+    - [x] Liver Server `live-server`
