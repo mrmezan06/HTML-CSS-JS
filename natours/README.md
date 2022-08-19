@@ -227,3 +227,9 @@ backface-visibility: hidden;
 - [x] Watch The keep changing SCSS File to Compile CSS
     - [x] Compile CSS with `npm run compile:sass`
     - [x] Liver Server `live-server`
+
+
+## Resources of Jonathon
+
+- [x] [Resources HTML CSS AND Extension of IDE Cheat Sheet](https://codingheroes.io/resources/)
+- [x] [Code Snippets](https://github.com/jonasschmedtmann/advanced-css-course)
