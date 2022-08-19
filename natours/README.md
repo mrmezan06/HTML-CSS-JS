@@ -197,6 +197,30 @@ backface-visibility: hidden;
 }
 ```
 
+- [x] Attribute Selector
+    - [x] Parameter can be set as [attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+    - [x] [Attribute Selector Example](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+```css
+[class^="col-"] {
+        background-color: orangered;
+        float: left;
+    }
+```
+
+- [x]  Everything selected without last child
+    - [x] Parameter can be set as [:not](https://developer.mozilla.org/en-US/docs/Web/CSS/:not).
+    - [x] [Everything selected without last child Example](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+
+```css
+&:not(:last-child) {
+            // Every column except the last one should have a right margin of $gutter-horizontal
+            margin-right: $gutter-horizontal;
+        }
+```
+
+
+
 
 ## Custom Scripts Instructions
 
