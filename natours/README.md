@@ -219,6 +219,10 @@ backface-visibility: hidden;
         }
 ```
 
+- [x] Background Blend Mode Only Works on Chrome
+```css
+background-blend-mode: screen;
+```
 
 
 
