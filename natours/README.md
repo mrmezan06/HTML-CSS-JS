@@ -240,3 +240,4 @@ background-blend-mode: screen;
 
 - [x] [Resources HTML CSS AND Extension of IDE Cheat Sheet](https://codingheroes.io/resources/)
 - [x] [Code Snippets](https://github.com/jonasschmedtmann/advanced-css-course)
+- [x] [Video Source](coverr.co)
