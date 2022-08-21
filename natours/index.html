@@ -267,8 +267,8 @@
       <section class="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
-            <source src="img/video.mp4" type="video/mp4">
-            <source src="img/video.webm" type="video/webm">
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
             Your browser is not supported!
           </video>
         </div>
@@ -330,7 +330,33 @@
       <section class="section-book">
         <div class="row">
           <div class="book">
-            
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start booking now!</h2>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    class="form__input"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form_label">Full Name</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    class="form__input"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form_label">Email Address</label>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>
