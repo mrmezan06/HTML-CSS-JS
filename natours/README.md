@@ -246,6 +246,10 @@ input:placeholder-shown + label {
 }
 ```
 
+- [x] Cubic Bezier Tools Website:
+  - [x] [Easings](https://easings.net/)
+  - [x] [Cubic Bezier](https://cubic-bezier.com/)
+
 ## Custom Scripts Instructions
 
 - [x] Watch The keep changing SCSS File to Compile CSS
