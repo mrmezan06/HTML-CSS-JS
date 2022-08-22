@@ -458,6 +458,15 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(circle at center, #7ed56f, #28b485); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
