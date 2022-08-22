@@ -48,6 +48,35 @@ body {
     0 15px 30px rgba(0, 210, 255, 0.2);
 }
 
+.card:hover {
+    box-shadow: 0 10px 20px rgba(255, 53, 155, 0.5),
+    0 15px 25px rgba(255, 53, 155, 0.3),
+    0 15px 30px rgba(255, 53, 155, 0.2);
+}
+
+.btn:not(:last-child) {
+    margin-right: 10px;
+    text-align: center;
+}
+
+.btn-primary {
+    transition: all .4s;
+}
+
+.btn-danger {
+    transition: all .4s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(7, 111, 172);
+    transform: scale(1.1);
+}
+
+.btn-danger:hover {
+    background-color: rgb(255, 53, 155);
+    transform: scale(1.1);
+}
+
 .h1 {
     color: white;
 }
