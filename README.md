@@ -51,7 +51,3 @@
 ## Important for Pull and Push
 * Fetching changes from github: `git fetch`
 * Merging changes from github: `git merge`
-
-
-## Preview
-[Preview Video](https://user-images.githubusercontent.com/43064536/180861004-cef709c5-c9a5-4579-a939-9ec9a3132b95.webm)
