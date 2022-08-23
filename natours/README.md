@@ -273,3 +273,4 @@ input:placeholder-shown + label {
 - [x] [Resources HTML CSS AND Extension of IDE Cheat Sheet](https://codingheroes.io/resources/)
 - [x] [Code Snippets](https://github.com/jonasschmedtmann/advanced-css-course)
 - [x] [Video Source](coverr.co)
+- [x] [Test With Real Devices](https://sizzy.co/)
