@@ -22,41 +22,37 @@
 900px - 1200px  ----------->  tablet Landscape
 1200px - 1800px  ----------->  desktop Normal Styles
 1800px - infinity  ----------->  large desktop
-*/
 
-@mixin respond-phone {
-    @media (max-width: 600px) {
-        @content;
-    }
-}
-
-/* 
 Breakpoint argument choices:
 -- phone
 -- tab-port
 -- tab-land
 -- desktop
 -- big-desktop
+
+rem sometimes is not enough, so we use em
+
+1em = 16px;
 */
 
 @mixin respond($brkpoint) {
     @if $brkpoint == "phone" {
-        @media (max-width: 600px) {
+        @media (max-width: 37.5em) { // 37.5em = 600px
             @content;
         }
     }
     @if $brkpoint == "tab-port" {
-        @media (max-width: 900px) {
+        @media (max-width: 56.25em) { // 56.25em = 900px
             @content;
         }
     }
     @if $brkpoint == "tab-land" {
-        @media (max-width: 1200px) {
+        @media (max-width: 75em) { // 75em = 1200px
             @content;
         }
     }
     @if $brkpoint == "big-desktop" {
-        @media (min-width: 1800px) {
+        @media (min-width: 112.5em) { // 112.5em = 1800px
             @content;
         }
     }
