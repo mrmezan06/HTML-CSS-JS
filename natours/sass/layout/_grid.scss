@@ -5,6 +5,14 @@
     &:not(:last-child) {
         // Every row except the last one should have a bottom margin of $gutter-vertical
         margin-bottom: $gutter-vertical;
+
+        @include respond(tab-port) {
+            margin-bottom: $gutter-vertical-small;
+        }
+    }
+
+    @include respond(tab-port) {
+        max-width: 50rem;
     }
 
     @include clearfix;
@@ -17,6 +25,15 @@
         &:not(:last-child) {
             // Every column except the last one should have a right margin of $gutter-horizontal
             margin-right: $gutter-horizontal;
+
+            @include respond(tab-port) {
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+
+        @include respond(tab-port) {
+            width: 100% !important;
         }
     }
 

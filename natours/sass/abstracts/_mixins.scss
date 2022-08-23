@@ -33,6 +33,8 @@ Breakpoint argument choices:
 rem sometimes is not enough, so we use em
 
 1em = 16px;
+
+ORDER: BASE + Typography > Then General layout + grid + page layout + components
 */
 
 @mixin respond($brkpoint) {
