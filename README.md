@@ -40,6 +40,7 @@
 * Project 31 - Navigation Menu - Curved
 * Project 32 - Picture in Picture
 * Project 33 - Social Counter
+* Project 34 - Natours
 
 
 ## [GTMetrix Report](https://gtmetrix.com/)
