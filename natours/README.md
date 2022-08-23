@@ -246,6 +246,18 @@ input:placeholder-shown + label {
 }
 ```
 
+- [x] Media Query
+  - [x] (min-width: 600px)
+    - [x] Greater than or equal 600px, all css rules will be applied.
+  - [x] (min-width: 900)
+    - [x] Greater than or equal 900px, all css rules will be applied.
+  - [x] (max-width: 600px)
+    - [x] 0px to 600px all css rules will be applied.
+  - [x] (min-width: 600px) and (max-width: 900px)
+    - [x] 600px to 900px all css rules will be applied.
+  - [x] (min-width: 900px) and (max-width: 1200px)
+    - [x] 900px to 1200px all css rules will be applied.
+
 - [x] Cubic Bezier Tools Website:
   - [x] [Easings](https://easings.net/)
   - [x] [Cubic Bezier](https://cubic-bezier.com/)
