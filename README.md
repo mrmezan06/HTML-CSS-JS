@@ -49,7 +49,3 @@
   - <img src="Report.png">
 
 ## Important for Pull and Push
-
-- Fetching changes from github: `git fetch`
-- Merging changes from github: `git merge`
-  **Note:** If you have made changes to the same file, you will get a merge conflict. You will have to resolve the conflict manually.
