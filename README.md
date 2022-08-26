@@ -49,3 +49,6 @@
   - <img src="Report.png">
 
 ## Important for Pull and Push
+
+- Fetching changes from github: `git fetch`
+- Merging changes from github: `git merge`
