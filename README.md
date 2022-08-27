@@ -52,3 +52,7 @@
 
 - Fetching changes from github: `git fetch`
 - Merging changes from github: `git merge`
+
+## Controbuter List
+
+![](https://img.shields.io/badge/Co--author-akash07105-blueviolet) ![](https://img.shields.io/badge/Co--author-mrmezan0-blueviolet) ![](https://img.shields.io/badge/Co--author-mrmezan1998-blueviolet) ![](https://img.shields.io/badge/Co--author-ImgBotApp-blueviolet)
