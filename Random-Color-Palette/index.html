@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Palette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn">Refresh</button>
+    <section class="container"></section>
+
+    <script>
+        for(let i=1; i<=500; i++){
+            const box = document.createElement('div');
+            box.classList.add('box');
+            document.querySelector('.container').appendChild(box);
+        }
+
+        const btn = document.querySelector('.btn');
+        const boxes = document.querySelectorAll('.box');
+         // btn.addEventListener('click', () => {
+         //   const boxes = document.querySelectorAll('.box');
+          //  boxes.forEach(box => {
+        //        const r = Math.floor(Math.random() * 255);
+       //         const g = Math.floor(Math.random() * 255);
+        //        const b = Math.floor(Math.random() * 255);
+        //        box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+     //       });
+      //  }); 
+      
+      
+      
+
+      function RandomHexColor(){
+        var chars = "0123456789abcdef";       
+        var colorLength = 6;
+        var color = "";
+
+        for(var i = 0; i < colorLength; i++){
+            var randomColor = Math.floor(Math.random() * chars.length);
+            color += chars.substring(randomColor, randomColor + 1);
+        }
+        return "#" + color;
+      }
+
+      function addColor(){
+          boxes.forEach(box => {
+              var newColor = RandomHexColor();
+                box.style.backgroundColor = newColor;
+                box.innerHTML = newColor.toUpperCase();
+                box.addEventListener('click', () => {
+                    navigator.clipboard.writeText(newColor);
+                    box.innerHTML = 'Copied!';
+                    setTimeout(() => {
+                        box.innerHTML = newColor.toUpperCase();
+                    }, 1500);
+                });
+          });
+      }
+
+      addColor();
+
+
+
+        btn.addEventListener('click', addColor);
+
+        var chars = "0123456789abcdef";
+        // make all possible combinations of 6 characters example 000000 to ffffff
+        var charArray = chars.split("");
+        var colorLength = 6;
+        var color = "";
+        var colorArray = [];
+
+        // 000000 to ffffff
+        // 000000 -> 000001 -> 000002 -> 000003
+        // lets increment the last character till comes to f
+       /* for(let i=0; i < 16; i++){
+            for(let j=0; j < 16; j++){
+                for(let k=0; k < 16; k++){
+                    for(let l=0; l < 16; l++){
+                        for(let m=0; m < 16; m++){
+                            for(let n=0; n < 16; n++){
+                                color = charArray[i] + charArray[j] + charArray[k] + charArray[l] + charArray[m] + charArray[n];
+                                colorArray.push(color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+
+
+        console.log(colorArray.length); */
+
+
+    </script>
+</body>
+</html>

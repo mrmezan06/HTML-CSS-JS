@@ -44,6 +44,7 @@
 - Project 34 - Natours
 - Project 35 - Smoke Text Effect
 - Project 36 - Animated Login Form
+- Project 37 - Random Color Palette
 
 ## [GTMetrix Report](https://gtmetrix.com/)
 
