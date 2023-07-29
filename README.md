@@ -43,6 +43,7 @@
 - Project 33 - Social Counter
 - Project 34 - Natours
 - Project 35 - Smoke Text Effect
+- Project 36 - Animated Login Form
 
 ## [GTMetrix Report](https://gtmetrix.com/)
 
