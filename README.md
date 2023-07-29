@@ -59,4 +59,4 @@
 ![](https://img.shields.io/badge/Co--author-akash07105-blueviolet) ![](https://img.shields.io/badge/Co--author-mrmezan0-blueviolet) ![](https://img.shields.io/badge/Co--author-mrmezan1998-blueviolet) ![](https://img.shields.io/badge/Co--author-ImgBotApp-blueviolet)
 
 ## Build Status
-![](https://img.shields.io/badge/Build-Active-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b7b0e795-9604-411d-bc25-64ef58a22667/deploy-status)](https://app.netlify.com/sites/akash07105/deploys)
