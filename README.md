@@ -45,6 +45,7 @@
 - Project 35 - Smoke Text Effect
 - Project 36 - Animated Login Form
 - Project 37 - Random Color Palette
+- Project 38 - Animated Sliding Login And Registration Form
 
 ## [GTMetrix Report](https://gtmetrix.com/)
 
