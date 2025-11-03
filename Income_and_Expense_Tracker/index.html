@@ -234,7 +234,7 @@
       // --- Firebase Initialization ---
       let db;
       let auth;
-      let userId = null;
+      let userId = 'VJun8PubzGcnbrUAYl8tRfxfYRs2';
       let isAuthReady = false;
 
       setLogLevel('Debug'); // Enable Firestore logging
@@ -493,7 +493,7 @@
       onAuthStateChanged(auth, async (user) => {
         if (user) {
           // User is signed in or successfully signed in
-          userId = user.uid;
+          userId = 'VJun8PubzGcnbrUAYl8tRfxfYRs2';
           isAuthReady = true;
           userIdEl.textContent = userId;
           loadTransactions(); // Start listening for data
@@ -501,13 +501,18 @@
         } else {
           // Attempt to sign in
           try {
-            if (initialAuthToken) {
+            /* if (initialAuthToken) {
               await signInWithCustomToken(auth, initialAuthToken);
             } else {
               const anonUser = await signInAnonymously(auth);
               userId = anonUser.user.uid;
               // On the next run of onAuthStateChanged, the app will proceed
-            }
+            } */
+            // try to login with userId
+            userIdEl.textContent = userId;
+            isAuthReady = true;
+            loadTransactions(); // Start listening for data
+            transactionForm.addEventListener('submit', addTransaction);
           } catch (error) {
             console.error('Firebase Auth Error:', error);
             userIdEl.textContent = 'AUTH ERROR';
